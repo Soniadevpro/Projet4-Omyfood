@@ -24,7 +24,8 @@ body {
 }
 
 main img {
-  object-fit: cover;
+  -o-object-fit: cover;
+     object-fit: cover;
   width: 100%;
 }
 
@@ -62,6 +63,4 @@ footer ul {
 footer__list {
   list-style: none;
   font-size: 16px;
-}
-
-/*# sourceMappingURL=style.css.map */
+}/*# sourceMappingURL=menu.css.map */
