@@ -1,6 +1,7 @@
 @import "./variables";
-@import "./layout/defaut";
 
-@import "./layout/home";
+@import "./layout_index/defaut";
 
-@import "./components/footer";
+@import "./layout_index/home";
+
+@import "./footer";
