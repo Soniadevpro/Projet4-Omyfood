@@ -16,11 +16,18 @@ h3 {
   font-weight: 700;
 }
 
+.fa-handshake-angle {
+  padding: 2px;
+}
+
+.fa-utensils {
+  padding: 5px;
+}
+
 .navmenu {
   display: flex;
   justify-content: center; /* Centre horizontalement */
 }
-
 .navmenu__logo {
   padding: 15px;
   height: 36px;
@@ -32,7 +39,6 @@ h3 {
   padding: 15px;
   box-shadow: inset 0px 2px 4px 0px rgba(0, 0, 0, 0.15);
 }
-
 .location input {
   color: black;
   font-weight: bold;
@@ -40,7 +46,6 @@ h3 {
   border: none;
   background-color: #f3f3f3;
 }
-
 .location ::placeholder {
   text-align: center;
 }
@@ -50,7 +55,6 @@ h3 {
   background-color: #f6f6f6;
   padding: 1px 0px 45px 0px;
 }
-
 .hero__button {
   border-radius: 25px;
   background: linear-gradient(175deg, #9356dc 0%, #ff79da 100%);
@@ -67,7 +71,6 @@ h3 {
   flex-direction: column;
   gap: 25px;
 }
-
 .fonction__content {
   display: flex;
   align-items: center;
@@ -75,7 +78,6 @@ h3 {
   border-radius: 20px;
   background-color: #f6f6f6;
 }
-
 .fonction__number {
   border-radius: 20px;
   font-size: 20px;
@@ -88,7 +90,6 @@ h3 {
   justify-content: center;
   margin-left: -15px;
 }
-
 .fonction__icon {
   color: #7e7e7e;
   font-size: 25px;
@@ -118,7 +119,6 @@ h3 {
   filter: drop-shadow(0px 3px 15px rgba(0, 0, 0, 0.1));
   height: 18rem;
 }
-
 .restaurants__cards__content__int {
   padding: 10px;
 }
@@ -129,7 +129,12 @@ footer {
   padding: 10px;
   background-color: black;
 }
-
+footer .footer__title {
+  font-size: 18px;
+  font-family: Shrikhand, sans-serif;
+  color: #f6f6f6;
+  margin: 0px;
+}
 footer ul {
   padding: 0px;
   color: #f6f6f6;
@@ -137,25 +142,9 @@ footer ul {
   flex-direction: column;
   gap: 5px;
 }
-
-.footer__title {
-  font-size: 18px;
-  font-family: Shrikhand, sans-serif;
-  color: #f6f6f6;
-  margin: 0px;
-}
-
-.footer__list {
+footer__list {
   list-style: none;
   font-size: 16px;
-}
-
-.fa-handshake-angle {
-  padding: 2px;
-}
-
-.fa-utensils {
-  padding: 5px;
 }
 
 /*# sourceMappingURL=style.css.map */
