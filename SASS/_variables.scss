@@ -1,4 +1,8 @@
-$button-color: black;
-$button-gradient: (175deg, #9356dc 0%, #ff79da 100%);
-$grey-1: #fafafa;
-$grey-2: #f3f3f3;
+:root {
+  --green: #99e2d0;
+  --green2: #008766;
+  --blue: #89c8fa;
+  --blue2: #003a68;
+  --primary: #9356dc;
+  --button: linear-gradient(175deg, #9356dc 0%, #ff79da 100%);
+}
