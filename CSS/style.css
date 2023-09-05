@@ -40,6 +40,11 @@ i {
   margin-top: -3rem;
 }
 
+.button {
+  border-radius: 20px;
+  border: solid;
+}
+
 footer {
   display: flex;
   flex-direction: column;
