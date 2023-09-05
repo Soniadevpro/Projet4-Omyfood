@@ -1,26 +1,26 @@
 * {
   font-family: "roboto", sans-serif;
 }
-
+.fontshri {
+  font-family: "shrikhand";
+  font-weight: 400;
+}
 h2 {
   font-size: 16px;
   border-bottom: #99e2d0 solid;
   width: 11%;
-}
-p {
-  margin: 0px;
-  font-size: 15px;
-  font-weight: 300;
 }
 h3 {
   margin: 0px;
   font-weight: 800;
   font-size: 18px;
 }
-h1 {
-  font-family: "shrikhand";
-  font-weight: 400;
+p {
+  margin: 0px;
+  font-size: 15px;
+  font-weight: 300;
 }
+
 body {
   margin: 0;
   padding: 0;
