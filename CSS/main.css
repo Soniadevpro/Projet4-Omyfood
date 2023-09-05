@@ -110,8 +110,7 @@ h3 {
   padding: 15px;
 }
 .restaurants__cards img {
-  -o-object-fit: cover;
-     object-fit: cover;
+  object-fit: cover;
   width: 100%;
   height: 175px;
   border-radius: 20px 20px 0px 0px;
@@ -149,4 +148,4 @@ footer ul {
 footer__list {
   list-style: none;
   font-size: 16px;
-}/*# sourceMappingURL=main.css.map */
+} /*# sourceMappingURL=main.css.map */
