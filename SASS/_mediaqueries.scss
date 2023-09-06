@@ -1,26 +1,23 @@
 @media (min-width: 1024px) {
   /**home**/
 
-  .fonction {
-  }
-  .fonction__title {
-    display: flex;
-  }
   .fonction__par {
     display: flex;
     flex-direction: row;
     gap: 40px;
     justify-content: center;
   }
+
   .restaurants {
     padding: 30px;
-  }
-  .restaurants__cards {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    gap: 6.25rem;
-    &__content {
-      height: 15rem;
+
+    &__cards {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 6.25rem;
+      &__content {
+        height: 15rem;
+      }
     }
   }
 
@@ -29,24 +26,29 @@
     flex-direction: row-reverse;
     justify-content: space-between;
     align-items: center;
+
+    ul {
+      display: flex;
+      flex-direction: row;
+      gap: 28px;
+      align-items: center;
+      list-style: none;
+    }
   }
 
-  footer ul {
-    display: flex;
-    flex-direction: row;
-    gap: 28px;
-    align-items: center;
-    list-style: none;
-  }
-  /**menu**/
   main {
     background: none;
     width: 100%;
+  }
+
+  main img {
+    height: 34rem;
   }
   .menuglob {
     margin: auto;
     max-width: 1024px;
   }
+
   .buttondispo {
     background-color: $blanc-casse;
   }

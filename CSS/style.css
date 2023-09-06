@@ -24,6 +24,42 @@ h3 {
   padding: 5px;
 }
 
+* {
+  font-family: "roboto", sans-serif;
+}
+
+.fontshri {
+  font-family: "shrikhand";
+  font-weight: 400;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+h2 {
+  font-size: 16px;
+  border-bottom: #99e2d0 solid;
+  width: 11%;
+  margin-bottom: 10px;
+}
+
+h3 {
+  margin: 0px;
+  font-weight: 800;
+  font-size: 18px;
+}
+
+p {
+  margin: 0px;
+  font-size: 15px;
+  font-weight: 300;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
 .navmenu {
   display: flex;
   justify-content: center; /* Centre horizontalement */
@@ -131,67 +167,6 @@ h3 {
   padding: 10px;
 }
 
-footer {
-  display: flex;
-  flex-direction: column;
-  padding: 10px;
-  background-color: black;
-}
-footer .footer__title {
-  font-size: 18px;
-  font-family: Shrikhand, sans-serif;
-  color: #f6f6f6;
-  margin: 0px;
-}
-footer ul {
-  padding: 0px;
-  color: #f6f6f6;
-  display: flex;
-  flex-direction: column;
-  gap: 5px;
-}
-footer__list {
-  list-style: none;
-  font-size: 16px;
-}
-
-/**restaurants**/
-* {
-  font-family: "roboto", sans-serif;
-}
-
-.fontshri {
-  font-family: "shrikhand";
-  font-weight: 400;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-}
-
-h2 {
-  font-size: 16px;
-  border-bottom: #99e2d0 solid;
-  width: 11%;
-  margin-bottom: 10px;
-}
-
-h3 {
-  margin: 0px;
-  font-weight: 800;
-  font-size: 18px;
-}
-
-p {
-  margin: 0px;
-  font-size: 15px;
-  font-weight: 300;
-}
-
-body {
-  margin: 0;
-  padding: 0;
-}
-
 .navlogo {
   display: flex;
   height: 63px;
@@ -253,8 +228,7 @@ main img {
   justify-content: center;
   padding: 40px;
 }
-
-.__buttondispo {
+.buttondispo__cmd {
   border-radius: 25px;
   font-size: 16px;
   font-weight: bold;
@@ -265,11 +239,32 @@ main img {
   padding: 15px 50px 15px 50px;
 }
 
+footer {
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  background-color: #353535;
+}
+footer .footer__title {
+  font-size: 18px;
+  font-family: Shrikhand, sans-serif;
+  color: #f6f6f6;
+  margin: 0px;
+}
+footer ul {
+  padding: 0px;
+  color: #f6f6f6;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+footer__list {
+  list-style: none;
+  font-size: 16px;
+}
+
 @media (min-width: 1024px) {
   /**home**/
-  .fonction__title {
-    display: flex;
-  }
   .fonction__par {
     display: flex;
     flex-direction: row;
@@ -293,17 +288,19 @@ main img {
     justify-content: space-between;
     align-items: center;
   }
-  footer ul {
+  .footer ul {
     display: flex;
     flex-direction: row;
     gap: 28px;
     align-items: center;
     list-style: none;
   }
-  /**menu**/
   main {
     background: none;
     width: 100%;
+  }
+  main img {
+    height: 34rem;
   }
   .menuglob {
     margin: auto;

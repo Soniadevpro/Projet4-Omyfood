@@ -1,15 +1,12 @@
 @import "./variables";
 
 @import "./layout_index/defaut";
+@import "./layout_menu/default";
 
 @import "./layout_index/home";
-
-@import "./footer";
-
-/**restaurants**/
-
-@import "./layout_menu/default";
 @import "./layout_menu/headermenu";
 @import "./layout_menu/plats";
 @import "./layout_menu/boutoncomm";
+
+@import "./footer";
 @import "./mediaqueries";
