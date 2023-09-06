@@ -2,18 +2,20 @@
   display: flex;
   height: 63px;
   align-items: center;
-}
-.navlogo img {
-  width: 197px;
-  height: 36px;
-  margin-left: 35px;
+
+  img {
+    width: 197px;
+    height: 36px;
+    margin-left: 65px;
+  }
 }
 main {
   background: whitesmoke;
-}
-main img {
-  object-fit: cover;
-  width: 100%;
+
+  img {
+    object-fit: cover;
+    width: 100%;
+  }
 }
 
 .fa-sharp {
