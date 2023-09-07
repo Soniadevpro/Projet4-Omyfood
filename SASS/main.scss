@@ -2,14 +2,11 @@
 
 @import "./layouts/default";
 
-@import "./layout_index/defaut";
-@import "./layout_menu/default";
+@import "./layouts/index";
 
-@import "./layout_index/home";
-
-@import "./components/_components_menu/headermenu";
-@import "./components/_components_menu/plats";
-@import "./components/_components_menu/boutoncomm";
+@import "./components/headermenu";
+@import "./layouts/menu";
+@import "./components/boutoncomm";
 
 @import "./components/footer";
 @import "./mediaqueries";

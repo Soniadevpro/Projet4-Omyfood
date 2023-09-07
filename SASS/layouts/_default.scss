@@ -1,3 +1,41 @@
+* {
+  font-family: "roboto", sans-serif;
+}
+.fontshri {
+  font-family: "shrikhand";
+  font-weight: 400;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+h2 {
+  font-size: 16px;
+
+  margin-bottom: 10px;
+}
+h3 {
+  margin: 0px;
+  font-weight: 800;
+  font-size: 18px;
+}
+p {
+  margin: 0px;
+  font-size: 15px;
+  font-weight: 300;
+}
+
+.hero__para {
+  font-size: 17px;
+}
+
+.fa-handshake-angle {
+  padding: 2px;
+}
+.fa-utensils {
+  padding: 5px;
+}
+
 body {
   margin: 0;
   padding: 0;
