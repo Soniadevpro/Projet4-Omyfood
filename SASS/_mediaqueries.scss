@@ -1,16 +1,26 @@
 @media (min-width: 1024px) {
   /**home**/
 
+  .fonction {
+    gap: 0px;
+    padding: 35px 149px;
+  }
   .fonction__par {
     display: flex;
+    justify-content: space-between;
     flex-direction: row;
     gap: 40px;
-    justify-content: center;
+  }
+  .fonction__content {
+    width: 100%;
   }
 
+  .fonction__content p {
+    display: flex;
+  }
   .restaurants {
-    padding: 30px;
-
+    padding: 35px 149px;
+    background-color: $blanc-casse;
     &__cards {
       display: grid;
       grid-template-columns: repeat(2, 1fr);
@@ -36,14 +46,6 @@
     }
   }
 
-  main {
-    background: none;
-    width: 100%;
-  }
-
-  main img {
-    height: 34rem;
-  }
   .menuglob {
     margin: auto;
     max-width: 1024px;

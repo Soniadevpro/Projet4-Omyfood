@@ -84,7 +84,10 @@
     gap: 20px;
   }
 }
-
+.fonction__content a:hover {
+  cursor: pointer;
+  background-color: $primary;
+}
 /**SECTION RESTAUS**/
 .restaurants {
   padding: 20px;
@@ -106,9 +109,8 @@
 .restaurants__cards__content {
   background-color: white;
   border-radius: 20px 20px 20px 20px;
-  filter: drop-shadow(0px 3px 15px rgba(0, 0, 0, 0.1));
   height: 16rem;
-
+  box-shadow: (0px 3px 15px rgba(0, 0, 0, 0.1));
   &__int {
     padding: 10px;
     text-decoration: none;
