@@ -11,7 +11,7 @@
   i {
     padding: 20px;
     left: 15px;
-    position: fixed;
+    position: absolute;
   }
 }
 main {
@@ -21,4 +21,8 @@ main {
     object-fit: cover;
     width: 100%;
   }
+}
+body {
+  padding: 0px;
+  margin: 0px;
 }
