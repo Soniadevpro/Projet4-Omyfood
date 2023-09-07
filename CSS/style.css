@@ -16,6 +16,11 @@ h3 {
   font-weight: 700;
 }
 
+a {
+  text-decoration: none;
+  color: black;
+}
+
 .fa-handshake-angle {
   padding: 2px;
 }
@@ -38,8 +43,6 @@ h3 {
 
 h2 {
   font-size: 16px;
-  border-bottom: #99e2d0 solid;
-  width: 11%;
   margin-bottom: 10px;
 }
 
@@ -161,21 +164,27 @@ body {
   background-color: white;
   border-radius: 20px 20px 20px 20px;
   filter: drop-shadow(0px 3px 15px rgba(0, 0, 0, 0.1));
-  height: 18rem;
+  height: 16rem;
 }
 .restaurants__cards__content__int {
   padding: 10px;
+  text-decoration: none;
 }
 
 .navlogo {
   display: flex;
   height: 63px;
   align-items: center;
+  justify-content: center;
 }
 .navlogo img {
   width: 197px;
   height: 36px;
-  margin-left: 65px;
+}
+.navlogo i {
+  padding: 20px;
+  left: 15px;
+  position: fixed;
 }
 
 main {
@@ -184,10 +193,6 @@ main {
 main img {
   object-fit: cover;
   width: 100%;
-}
-
-.fa-sharp {
-  padding: 20px;
 }
 
 .card {

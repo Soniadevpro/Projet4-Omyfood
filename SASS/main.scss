@@ -4,9 +4,10 @@
 @import "./layout_menu/default";
 
 @import "./layout_index/home";
-@import "./layout_menu/headermenu";
-@import "./layout_menu/plats";
-@import "./layout_menu/boutoncomm";
 
-@import "./footer";
+@import "./components/_components_menu/headermenu";
+@import "./components/_components_menu/plats";
+@import "./components/_components_menu/boutoncomm";
+
+@import "./components/footer";
 @import "./mediaqueries";
