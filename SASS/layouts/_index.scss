@@ -40,10 +40,11 @@
   &__content {
     display: flex;
     align-items: center;
-    box-shadow: 1px 1px 4px 0px rgba(0, 0, 0, 0.15);
+
     border-radius: 20px;
     padding: 10px;
     background-color: $blanc-casse;
+    transition: background-color 0.3s ease-in-out;
   }
   &__number {
     border-radius: 20px;
@@ -68,10 +69,16 @@
     gap: 20px;
   }
 }
-.fonction__content a:hover {
+.fonction__content:hover {
   cursor: pointer;
-  background-color: $primary;
+  background-color: #e2bfed;
+  box-shadow: 1px 1px 4px 0px rgba(0, 0, 0, 0.15);
+
+  i {
+    color: $primary;
+  }
 }
+
 /**SECTION RESTAUS**/
 .restaurants {
   padding: 20px;

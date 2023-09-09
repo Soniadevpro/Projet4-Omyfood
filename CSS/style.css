@@ -1,3 +1,53 @@
+.allmenus__details {
+  opacity: 0;
+  animation: fadeIn 0.5s ease-in-out forwards;
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+.delai0 {
+  animation-delay: 0.25s;
+}
+
+.delai1 {
+  animation-delay: 0.5s;
+}
+
+.delai2 {
+  animation-delay: 0.75s;
+}
+
+.delai3 {
+  animation-delay: 1s;
+}
+
+.delai4 {
+  animation-delay: 1.25s;
+}
+
+.delai5 {
+  animation-delay: 1.5s;
+}
+
+.delai6 {
+  animation-delay: 1.75s;
+}
+
+.delai7 {
+  animation-delay: 2s;
+}
+
+.delai8 {
+  animation-delay: 2.25s;
+}
+
+/*** animation fonction**/
 * {
   font-family: "roboto", sans-serif;
 }
@@ -87,10 +137,10 @@ body {
 .fonction__content {
   display: flex;
   align-items: center;
-  box-shadow: 1px 1px 4px 0px rgba(0, 0, 0, 0.15);
   border-radius: 20px;
   padding: 10px;
   background-color: #f6f6f6;
+  transition: background-color 0.3s ease-in-out;
 }
 .fonction__number {
   border-radius: 20px;
@@ -114,9 +164,13 @@ body {
   gap: 20px;
 }
 
-.fonction__content a:hover {
+.fonction__content:hover {
   cursor: pointer;
-  background-color: #9356dc;
+  background-color: #e2bfed;
+  box-shadow: 1px 1px 4px 0px rgba(0, 0, 0, 0.15);
+}
+.fonction__content:hover i {
+  color: #9356dc;
 }
 
 /**SECTION RESTAUS**/
@@ -342,12 +396,10 @@ footer__list {
   border: none;
   padding: 15px 50px 15px 50px;
   cursor: pointer;
-  transition: background-color 0.3s, transform 0.3s;
 }
 
-.buttondispo a :hover {
-  transform: scale(1.1);
-  background-color: #353535;
+.buttondispo__cmd a :hover {
+  background-color: red;
 }
 
 /*# sourceMappingURL=style.css.map */

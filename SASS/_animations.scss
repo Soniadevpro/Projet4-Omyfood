@@ -1,0 +1,42 @@
+.allmenus__details {
+  opacity: 0;
+  animation: fadeIn 0.5s ease-in-out forwards;
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.delai0 {
+  animation-delay: 0.25s;
+}
+.delai1 {
+  animation-delay: 0.5s;
+}
+.delai2 {
+  animation-delay: 0.75s;
+}
+.delai3 {
+  animation-delay: 1s;
+}
+.delai4 {
+  animation-delay: 1.25s;
+}
+.delai5 {
+  animation-delay: 1.5s;
+}
+.delai6 {
+  animation-delay: 1.75s;
+}
+.delai7 {
+  animation-delay: 2s;
+}
+.delai8 {
+  animation-delay: 2.25s;
+}
+/*** animation fonction**/
