@@ -1,12 +1,13 @@
 @import "./variables";
 @import "./mixin";
+
 @import "./layouts/default";
 
 @import "./layouts/index";
 
 @import "./components/headermenu";
 @import "./layouts/menu";
-@import "./components/boutoncomm";
 
 @import "./components/footer";
 @import "./mediaqueries";
+@import "./components/boutoncomm";

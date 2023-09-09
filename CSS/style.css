@@ -2,7 +2,7 @@
   font-family: "roboto", sans-serif;
 }
 
-.fontshri {
+.menu-title {
   font-family: "shrikhand";
   font-weight: 400;
   display: flex;
@@ -74,21 +74,6 @@ body {
   text-align: center;
   background-color: #f6f6f6;
   padding: 1px 0px 45px 0px;
-}
-.hero__button {
-  border-radius: 25px;
-  background: linear-gradient(175deg, #9356dc 0%, #ff79da 100%);
-  padding: 15px;
-  border: none;
-  box-shadow: 0px 4px 10px 0px rgba(0, 0, 0, 0.25);
-  color: #ffffff;
-  margin: 25px;
-  font-size: 16px;
-}
-
-.hero__button a :hover {
-  cursor: pointer;
-  color: #ffffff;
 }
 
 /***FONCTIONNEMENT**/
@@ -166,6 +151,15 @@ body {
   color: black;
 }
 
+.nouveau {
+  background-color: #99e2d0;
+  color: #008766;
+  padding: 5px;
+  position: absolute;
+  right: 182px;
+  bottom: 208px;
+}
+
 .navlogo {
   display: flex;
   height: 63px;
@@ -195,57 +189,67 @@ body {
   margin: 0px;
 }
 
-.card {
+.allmenus__position {
   background-color: white;
   border-radius: 15px;
   padding: 15px;
   display: flex;
-  flex-direction: column;
+  justify-content: space-between;
   box-shadow: 0px 4.01149px 15.0431px 0px rgba(0, 0, 0, 0.1);
   gap: 5px;
+  margin: 5px 0;
+  overflow: hidden;
+  cursor: pointer;
 }
 
-.menucomplet {
+.allmenus {
   border-radius: 3rem 3rem 0 0;
   position: sticky;
   padding: 1rem;
   margin-top: -3rem;
   background: whitesmoke;
 }
-.menucomplet__epd {
+.allmenus__card {
   display: flex;
   flex-direction: column;
-  gap: 12px;
   margin-bottom: 2.8rem;
 }
 
-.money {
-  font-weight: 700;
+.allmenus__valid {
+  background-color: #99e2d0;
+  margin: -1rem -5rem -1rem 1rem;
+  width: 4rem;
   display: flex;
-  justify-content: space-between;
-}
-.money .bold {
-  font-weight: 700;
-}
-
-.buttondispo {
-  display: flex;
+  align-items: center;
   justify-content: center;
-  padding: 40px;
-}
-.buttondispo__cmd {
-  border-radius: 25px;
-  font-size: 16px;
-  font-weight: bold;
-  color: white;
-  box-shadow: 0px 4px 10px 0px rgba(0, 0, 0, 0.25);
-  background: linear-gradient(179deg, #ff79da -11.44%, #9356dc 123.93%);
-  border: none;
-  padding: 15px 50px 15px 50px;
+  transition-duration: 0.5s;
+  border-radius: 0px 15px 15px 0px;
 }
 
-.buttondispo a :hover {
-  cursor: pointer;
+.allmenus__details :hover .allmenus__valid {
+  margin-right: -1rem;
+}
+
+.allmenus__icon {
+  background-color: #ffffff;
+  border-radius: 100px;
+  height: 1.6rem;
+  width: 1.6rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.price {
+  font-weight: 700;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+  padding-left: 0.5rem;
+}
+
+.allmenus__content {
+  width: 100%;
 }
 
 footer {
@@ -322,6 +326,28 @@ footer__list {
   .buttondispo {
     background-color: #f6f6f6;
   }
+}
+.buttondispo {
+  display: flex;
+  justify-content: center;
+  padding: 40px;
+}
+.buttondispo__cmd {
+  border-radius: 25px;
+  font-size: 16px;
+  font-weight: bold;
+  color: white;
+  box-shadow: 0px 4px 10px 0px rgba(0, 0, 0, 0.25);
+  background: linear-gradient(175deg, #9356dc 0%, #ff79da 100%);
+  border: none;
+  padding: 15px 50px 15px 50px;
+  cursor: pointer;
+  transition: background-color 0.3s, transform 0.3s;
+}
+
+.buttondispo a :hover {
+  transform: scale(1.1);
+  background-color: #353535;
 }
 
 /*# sourceMappingURL=style.css.map */
