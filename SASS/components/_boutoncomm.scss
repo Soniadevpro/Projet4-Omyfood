@@ -1,20 +1,27 @@
 .buttondispo {
+  border-radius: 25px;
+  font-size: 16px;
+  font-weight: bold;
+  color: white;
+  box-shadow: 0px 4px 10px 0px rgba(0, 0, 0, 0.25);
+  background-image: $button; /* Assurez-vous que $button contient l'image que vous souhaitez utiliser en arrière-plan */
+  background-color: #686868;
+  border: none;
+  padding: 15px 50px 15px 50px;
+  cursor: pointer;
+  margin-top: 30px;
+  transition: box-shadow 0.3s; /* Ajoutez une transition sur la propriété box-shadow */
+}
+
+.buttondispo:hover {
+  box-shadow: 0px 4px 20px 0px rgba(0, 0, 0, 0.5); /* Modifiez la valeur de la box-shadow pour créer un effet de brillance au survol */
+}
+.button {
   display: flex;
   justify-content: center;
-  padding: 40px;
-
-  &__cmd {
-    border-radius: 25px;
-    font-size: 16px;
-    font-weight: bold;
-    color: white;
-    box-shadow: 0px 4px 10px 0px rgba(0, 0, 0, 0.25);
-    background: $button;
-    border: none;
-    padding: 15px 50px 15px 50px;
-    cursor: pointer;
-  }
+  padding: 10px;
+  align-content: center;
 }
-.buttondispo__cmd a :hover {
-  background-color: red;
+.button .buttondispo {
+  margin: 0px;
 }

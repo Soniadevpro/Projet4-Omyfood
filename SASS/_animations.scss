@@ -39,4 +39,46 @@
 .delai8 {
   animation-delay: 2.25s;
 }
-/*** animation fonction**/
+/*** animation loader**/
+
+/**variable loads**/
+$cd-bars: #15dea5;
+$size: 3vh;
+$animdur: 1000ms;
+$num-bars: 5;
+$anim-delay: $animdur / $num-bars;
+$cd-bars-inv: #0e397f;
+/***/
+
+.load {
+  width: $size * 10;
+  height: $size * 7.5;
+  display: flex;
+  justify-content: space-evenly;
+  &__bar {
+    background-color: $primary;
+    height: 100%;
+    width: $size;
+    animation: bars $animdur backwards infinite ease-in-out alternate;
+
+    @for $i from 1 through $num-bars {
+      &--#{$i} {
+        animation-delay: $anim-delay * $i;
+      }
+      &--#{$i}-inv {
+        animation-delay: $anim-delay * $i;
+        animation-direction: alternate-reverse;
+        background-color: #ff79da;
+      }
+    }
+  }
+}
+
+@keyframes bars {
+  0% {
+    transform: scaleY(0.5);
+  }
+  100% {
+    transform: scaleY(1);
+  }
+}
