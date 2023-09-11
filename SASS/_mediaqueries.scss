@@ -24,7 +24,7 @@
     &__cards {
       display: grid;
       grid-template-columns: repeat(2, 1fr);
-      gap: 6.25rem;
+      gap: 3rem;
       &__content {
         height: 15rem;
       }

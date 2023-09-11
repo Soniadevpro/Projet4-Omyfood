@@ -43,16 +43,35 @@
 
 /**variable loads**/
 $cd-bars: #15dea5;
-$size: 3vh;
+$size: 2vh;
 $animdur: 1000ms;
 $num-bars: 5;
 $anim-delay: $animdur / $num-bars;
 $cd-bars-inv: #0e397f;
 /***/
-
+.container {
+  background: white;
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 100;
+  animation: fadeout 1s 3s forwards;
+}
+@keyframes fadeout {
+  0% {
+    opacity: 100%;
+  }
+  100% {
+    opacity: 0%;
+    visibility: hidden;
+  }
+}
 .load {
-  width: $size * 10;
-  height: $size * 7.5;
+  width: $size * 9;
+  height: $size * 7;
   display: flex;
   justify-content: space-evenly;
   &__bar {
