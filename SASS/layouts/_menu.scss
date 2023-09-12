@@ -25,12 +25,12 @@
 }
 .allmenus__valid {
   background-color: #99e2d0;
-  margin: -1rem -5rem -1rem 1rem;
-  width: 4rem;
+  margin: -1rem -8rem -1rem 1rem;
+  width: 7rem;
   display: flex;
   align-items: center;
   justify-content: center;
-  transition-duration: 0.5s;
+  transition-duration: 1s;
   border-radius: 0px 15px 15px 0px;
 }
 .allmenus__details :hover .allmenus__valid {
@@ -46,6 +46,7 @@
   align-items: center;
   justify-content: center;
 }
+
 .price {
   font-weight: 700;
   display: flex;

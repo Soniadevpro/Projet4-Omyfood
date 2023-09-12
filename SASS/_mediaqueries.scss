@@ -1,5 +1,5 @@
 @media (min-width: 1024px) {
-  /**home**/
+  /**index**/
 
   .fonction {
     gap: 0px;
@@ -46,12 +46,27 @@
     }
   }
 
-  .menuglob {
+  /** Pages menus**/
+
+  main {
+    background-color: white;
+  }
+  .allmenus {
     margin: auto;
     max-width: 1024px;
+    background-color: $blanc-casse;
+    box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.1);
+
+    width: 60%;
+    position: sticky;
+    padding: 9rem;
+    margin-top: -5rem;
   }
 
-  .buttondispo {
-    background-color: $blanc-casse;
+  .menu-title {
+    display: flex;
+    justify-content: center;
+    margin-top: -5rem;
+    padding-bottom: 40px;
   }
 }

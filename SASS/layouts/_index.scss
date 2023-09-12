@@ -13,11 +13,12 @@
   padding: 15px;
   box-shadow: inset 0px 2px 4px 0px rgba(0, 0, 0, 0.15);
   & input {
-    color: black;
     font-weight: bold;
     font-size: 16px;
     border: none;
     background-color: $input;
+    outline: none;
+    text-align: center;
   }
   & ::placeholder {
     text-align: center;
@@ -106,4 +107,15 @@
     padding: 10px;
     color: black;
   }
+}
+.restaurants__content {
+  background-color: white;
+  border-radius: 20px 20px 20px 20px;
+  height: 16rem;
+  box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.1);
+  transition: 0.3s ease, box-shadow 0.3s ease;
+}
+
+.restaurants__content:hover {
+  box-shadow: 0px 5px 25px rgba(0, 0, 0, 0.7);
 }

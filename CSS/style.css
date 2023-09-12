@@ -1,7 +1,33 @@
-@charset "UTF-8";
 .allmenus__details {
   opacity: 0;
   animation: fadeIn 0.5s ease-in-out forwards;
+}
+.allmenus__details--0 {
+  animation-delay: 0ms;
+}
+.allmenus__details--1 {
+  animation-delay: 375ms;
+}
+.allmenus__details--2 {
+  animation-delay: 750ms;
+}
+.allmenus__details--3 {
+  animation-delay: 1125ms;
+}
+.allmenus__details--4 {
+  animation-delay: 1500ms;
+}
+.allmenus__details--5 {
+  animation-delay: 1875ms;
+}
+.allmenus__details--6 {
+  animation-delay: 2250ms;
+}
+.allmenus__details--7 {
+  animation-delay: 2625ms;
+}
+.allmenus__details--8 {
+  animation-delay: 3000ms;
 }
 
 @keyframes fadeIn {
@@ -12,42 +38,6 @@
     opacity: 1;
   }
 }
-.delai0 {
-  animation-delay: 0.25s;
-}
-
-.delai1 {
-  animation-delay: 0.5s;
-}
-
-.delai2 {
-  animation-delay: 0.75s;
-}
-
-.delai3 {
-  animation-delay: 1s;
-}
-
-.delai4 {
-  animation-delay: 1.25s;
-}
-
-.delai5 {
-  animation-delay: 1.5s;
-}
-
-.delai6 {
-  animation-delay: 1.75s;
-}
-
-.delai7 {
-  animation-delay: 2s;
-}
-
-.delai8 {
-  animation-delay: 2.25s;
-}
-
 /*** animation loader**/
 /**variable loads**/
 /***/
@@ -179,6 +169,10 @@ body {
   padding: 0;
 }
 
+a {
+  text-decoration: none;
+}
+
 .navmenu {
   display: flex;
   justify-content: center; /* Centre horizontalement */
@@ -195,11 +189,12 @@ body {
   box-shadow: inset 0px 2px 4px 0px rgba(0, 0, 0, 0.15);
 }
 .location input {
-  color: black;
   font-weight: bold;
   font-size: 16px;
   border: none;
   background-color: #eaeaea;
+  outline: none;
+  text-align: center;
 }
 .location ::placeholder {
   text-align: center;
@@ -285,6 +280,18 @@ body {
   color: black;
 }
 
+.restaurants__content {
+  background-color: white;
+  border-radius: 20px 20px 20px 20px;
+  height: 16rem;
+  box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.1);
+  transition: 0.3s ease, box-shadow 0.3s ease;
+}
+
+.restaurants__content:hover {
+  box-shadow: 0px 5px 25px rgba(0, 0, 0, 0.7);
+}
+
 .navlogo {
   display: flex;
   height: 63px;
@@ -343,12 +350,12 @@ body {
 
 .allmenus__valid {
   background-color: #99e2d0;
-  margin: -1rem -5rem -1rem 1rem;
-  width: 4rem;
+  margin: -1rem -8rem -1rem 1rem;
+  width: 7rem;
   display: flex;
   align-items: center;
   justify-content: center;
-  transition-duration: 0.5s;
+  transition-duration: 1s;
   border-radius: 0px 15px 15px 0px;
 }
 
@@ -403,7 +410,7 @@ footer__list {
 }
 
 @media (min-width: 1024px) {
-  /**home**/
+  /**index**/
   .fonction {
     gap: 0px;
     padding: 35px 149px;
@@ -445,12 +452,25 @@ footer__list {
     align-items: center;
     list-style: none;
   }
-  .menuglob {
+  /** Pages menus**/
+  main {
+    background-color: white;
+  }
+  .allmenus {
     margin: auto;
     max-width: 1024px;
-  }
-  .buttondispo {
     background-color: #f6f6f6;
+    box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.1);
+    width: 60%;
+    position: sticky;
+    padding: 9rem;
+    margin-top: -5rem;
+  }
+  .menu-title {
+    display: flex;
+    justify-content: center;
+    margin-top: -5rem;
+    padding-bottom: 40px;
   }
 }
 .buttondispo {
@@ -459,17 +479,17 @@ footer__list {
   font-weight: bold;
   color: white;
   box-shadow: 0px 4px 10px 0px rgba(0, 0, 0, 0.25);
-  background-image: linear-gradient(175deg, #9356dc 0%, #ff79da 100%); /* Assurez-vous que $button contient l'image que vous souhaitez utiliser en arrière-plan */
+  background-image: linear-gradient(175deg, #9356dc 0%, #ff79da 100%);
   background-color: #686868;
   border: none;
   padding: 15px 50px 15px 50px;
   cursor: pointer;
   margin-top: 30px;
-  transition: box-shadow 0.3s; /* Ajoutez une transition sur la propriété box-shadow */
+  transition: box-shadow 0.3s;
 }
 
-.buttondispo:hover {
-  box-shadow: 0px 4px 20px 0px rgba(0, 0, 0, 0.5); /* Modifiez la valeur de la box-shadow pour créer un effet de brillance au survol */
+.buttondispo:hover::before {
+  box-shadow: 0px 4px 20px 0px rgba(0, 0, 0, 0.5);
 }
 
 .button {
@@ -477,10 +497,6 @@ footer__list {
   justify-content: center;
   padding: 10px;
   align-content: center;
-}
-
-.button .buttondispo {
-  margin: 0px;
 }
 
 /*# sourceMappingURL=style.css.map */

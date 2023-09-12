@@ -1,6 +1,12 @@
+$num-cards: 8;
 .allmenus__details {
   opacity: 0;
   animation: fadeIn 0.5s ease-in-out forwards;
+  @for $i from 0 through $num-cards {
+    &--#{$i} {
+      animation-delay: 3000ms / 8 * $i;
+    }
+  }
 }
 
 @keyframes fadeIn {
@@ -12,33 +18,6 @@
   }
 }
 
-.delai0 {
-  animation-delay: 0.25s;
-}
-.delai1 {
-  animation-delay: 0.5s;
-}
-.delai2 {
-  animation-delay: 0.75s;
-}
-.delai3 {
-  animation-delay: 1s;
-}
-.delai4 {
-  animation-delay: 1.25s;
-}
-.delai5 {
-  animation-delay: 1.5s;
-}
-.delai6 {
-  animation-delay: 1.75s;
-}
-.delai7 {
-  animation-delay: 2s;
-}
-.delai8 {
-  animation-delay: 2.25s;
-}
 /*** animation loader**/
 
 /**variable loads**/
