@@ -3,7 +3,12 @@ $green2: #008766;
 $blue: #89c8fa;
 $blue2: #003a68;
 $primary: #9356dc;
-$button: linear-gradient(175deg, #9356dc 0%, #ff79da 100%);
+$button: linear-gradient(
+  90deg,
+  rgba(131, 58, 180, 1) 0%,
+  rgba(253, 29, 29, 1) 50%,
+  rgba(252, 176, 69, 1) 100%
+);
 $blanc-casse: #f6f6f6;
 $input: #eaeaea;
 $greyicon: #7e7e7e;
