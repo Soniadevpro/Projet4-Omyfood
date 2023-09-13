@@ -1,3 +1,7 @@
+.underline {
+  border-bottom: #99e2d0 3px;
+  position: relative;
+}
 .allmenus__position {
   background-color: white;
   border-radius: 15px;
@@ -14,7 +18,7 @@
   border-radius: 3rem 3rem 0 0;
   position: sticky;
   padding: 1rem;
-  margin-top: -2rem;
+  margin-top: -4rem;
   background: whitesmoke;
 
   &__card {
@@ -53,10 +57,13 @@
   justify-content: flex-end;
   align-items: flex-end;
   padding-left: 0.5rem;
+  font-size: 15.04px;
 }
 .allmenus__content {
   width: 100%;
   text-overflow: ellipsis;
   overflow: hidden;
   white-space: nowrap;
+  font-weight: 300;
+  font-size: 15.04px;
 }

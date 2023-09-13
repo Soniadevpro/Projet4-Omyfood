@@ -13,7 +13,7 @@
   padding: 15px;
   box-shadow: inset 0px 2px 4px 0px rgba(0, 0, 0, 0.15);
   & input {
-    font-weight: bold;
+    font-weight: 500;
     font-size: 16px;
     border: none;
     background-color: $input;
@@ -28,6 +28,10 @@
   text-align: center;
   background-color: $blanc-casse;
   padding: 1px 0px 45px 0px;
+  &__para {
+    font-size: 18px;
+    font-weight: 300;
+  }
 }
 
 /***FONCTIONNEMENT**/
@@ -41,7 +45,7 @@
   &__content {
     display: flex;
     align-items: center;
-
+    font-weight: 500;
     border-radius: 20px;
     padding: 10px;
     background-color: $blanc-casse;
@@ -106,6 +110,8 @@
   &__int {
     padding: 10px;
     color: black;
+    font-size: 17px;
+    font-weight: 300;
   }
 }
 .restaurants__content {

@@ -4,24 +4,27 @@
 .menu-title {
   font-family: "shrikhand";
   font-weight: 400;
+  font-size: 28px;
 }
 
 h2 {
   font-size: 16px;
+  font-weight: 300;
   margin-bottom: 10px;
+  border-bottom: 3px solid $green;
+  position: relative;
+  width: 4%;
 }
 
 h3 {
   margin: 0px;
-  font-weight: 800;
+  font-weight: 500;
   font-size: 18px;
   text-overflow: ellipsis;
   overflow: hidden;
 }
 p {
   margin: 0px;
-  font-size: 15px;
-  font-weight: 300;
   text-overflow: ellipsis;
   overflow: hidden;
 }
