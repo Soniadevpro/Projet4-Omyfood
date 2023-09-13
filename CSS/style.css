@@ -1,3 +1,4 @@
+@charset "UTF-8";
 .allmenus__details {
   opacity: 0;
   animation: fadeIn 0.5s ease-in-out forwards;
@@ -126,6 +127,7 @@
 .icon i {
   position: absolute;
   font-size: 22px;
+  top: 50px;
 }
 
 .my-heart-full {
@@ -145,6 +147,16 @@
 .icon {
   display: flex;
   justify-content: flex-end;
+}
+
+/***Icône coeur de l'index***/
+.icon__index {
+  /*uniquement pour le positionner*/
+  position: absolute;
+  right: 74px;
+  bottom: -133px;
+  font-size: 22px;
+  cursor: pointer;
 }
 
 * {
@@ -307,7 +319,6 @@ a {
 
 .restaurants__content:hover {
   box-shadow: 0px 5px 25px rgba(0, 0, 0, 0.7);
-  transform: scale(1.05);
 }
 
 .navlogo {
@@ -461,7 +472,7 @@ li {
   .footer {
     display: flex;
     flex-direction: row-reverse;
-    justify-content: space-between;
+    gap: 80px;
     align-items: center;
   }
   .footer ul {
@@ -490,6 +501,11 @@ li {
     justify-content: center;
     margin-top: -5rem;
     padding-bottom: 40px;
+  }
+  .icon i {
+    position: absolute;
+    font-size: 22px;
+    top: 77px;
   }
 }
 .btn {

@@ -80,10 +80,11 @@ $cd-bars-inv: #0e397f;
     transform: scaleY(1);
   }
 }
-//**coeur**//
+//** Icône coeur menu et animation**//
 .icon i {
   position: absolute;
   font-size: 22px;
+  top: 50px;
 }
 .my-heart-full {
   opacity: 0;
@@ -100,4 +101,14 @@ $cd-bars-inv: #0e397f;
 .icon {
   display: flex;
   justify-content: flex-end;
+}
+/***Icône coeur de l'index***/
+
+.icon__index {
+  /*uniquement pour le positionner*/
+  position: absolute;
+  right: 74px;
+  bottom: -133px;
+  font-size: 22px;
+  cursor: pointer;
 }

@@ -34,7 +34,7 @@
   .footer {
     display: flex;
     flex-direction: row-reverse;
-    justify-content: space-between;
+    gap: 80px;
     align-items: center;
 
     ul {
@@ -68,5 +68,11 @@
     justify-content: center;
     margin-top: -5rem;
     padding-bottom: 40px;
+  }
+
+  .icon i {
+    position: absolute;
+    font-size: 22px;
+    top: 77px;
   }
 }
