@@ -37,7 +37,7 @@ $cd-bars-inv: #0e397f;
   justify-content: center;
   align-items: center;
   z-index: 100;
-  animation: fadeout 1s 3s forwards;
+  animation: fadeout 1s 1s forwards;
 }
 @keyframes fadeout {
   0% {
@@ -79,4 +79,25 @@ $cd-bars-inv: #0e397f;
   100% {
     transform: scaleY(1);
   }
+}
+//**coeur**//
+.icon i {
+  position: absolute;
+  font-size: 22px;
+}
+.my-heart-full {
+  opacity: 0;
+  transition-property: all;
+  transition-duration: 0.75s;
+}
+.my-heart-full:hover {
+  opacity: 1;
+  color: transparent;
+  background-clip: text;
+  background-image: linear-gradient($primary, #ff79da);
+  -webkit-background-clip: text;
+}
+.icon {
+  display: flex;
+  justify-content: flex-end;
 }
