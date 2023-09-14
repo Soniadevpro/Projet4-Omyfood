@@ -16,6 +16,12 @@ $clr-btn: #15dea5;
     &::after {
       opacity: 1;
     }
+    // background: linear-gradient(
+    //   to top,
+    //   lighten(#9356dc, 10) 0%,
+    //   darken(#ff79da, 5) 100%
+    // );
+    // box-shadow: -5px 5px 10px 0px rgba(0, 0, 0, 0.25);
   }
   &::after {
     content: "";
