@@ -2,6 +2,7 @@ $num-cards: 8;
 .allmenus__details {
   opacity: 0;
   animation: fadeIn 0.5s ease-in-out forwards;
+
   @for $i from 0 through $num-cards {
     &--#{$i} {
       animation-delay: 3000ms / 8 * $i;
