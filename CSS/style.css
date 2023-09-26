@@ -4,31 +4,31 @@
   animation: fadeIn 0.5s ease-in-out forwards;
 }
 .allmenus__details--0 {
-  animation-delay: 3000ms;
+  animation-delay: 0ms;
 }
 .allmenus__details--1 {
-  animation-delay: 3375ms;
+  animation-delay: 375ms;
 }
 .allmenus__details--2 {
-  animation-delay: 3750ms;
+  animation-delay: 750ms;
 }
 .allmenus__details--3 {
-  animation-delay: 4125ms;
+  animation-delay: 1125ms;
 }
 .allmenus__details--4 {
-  animation-delay: 4500ms;
+  animation-delay: 1500ms;
 }
 .allmenus__details--5 {
-  animation-delay: 4875ms;
+  animation-delay: 1875ms;
 }
 .allmenus__details--6 {
-  animation-delay: 5250ms;
+  animation-delay: 2250ms;
 }
 .allmenus__details--7 {
-  animation-delay: 5625ms;
+  animation-delay: 2625ms;
 }
 .allmenus__details--8 {
-  animation-delay: 6000ms;
+  animation-delay: 3000ms;
 }
 
 @keyframes fadeIn {
@@ -490,6 +490,7 @@ ul {
 
 li {
   color: white;
+  list-style: none;
 }
 
 @media (min-width: 1024px) {
