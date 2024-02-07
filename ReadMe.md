@@ -1,5 +1,5 @@
 # OhMyFood - Projet 4 :plate_with_cutlery:
-![Texte alternatif](/images/restaurantsimg/jay-wennington-N_Y88TWmGwA-unsplash.jpg "restaurant")
+![Texte alternatif](/images/logo/ohmyfood-readme.jpg "restaurant")
 
 
 
