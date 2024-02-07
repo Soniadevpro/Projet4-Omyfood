@@ -1,5 +1,5 @@
 # OhMyFood - Projet 4 :plate_with_cutlery:
-![Texte alternatif](/images/logo/ohmyfood-readme.jpg "restaurant")
+![Texte alternatif](/images/logo/ohmyfood-readme.png "restaurant")
 
 
 
