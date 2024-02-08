@@ -3,27 +3,27 @@
 
 
 
-**Notre mission :** 
+## Notre mission : 🚀
 
 Je suis développeuse web junior dans une jeune startup qui voudrait s'imposer dans le marché de la restauration. 
 
-Notre mission est de développer un site "**mobile first**" qui répertorie les menus de restaurants gastronomiques.
+Notre mission est de développer un site "**mobile first**" 📱qui répertorie les menus de restaurants gastronomiques.
 
-Les maquettes "**desktop & mobile**", mise à ma dispostion. 
-
-
-**Consignes :**
-
-> Mettre en place des animations CSS **dynamiques** :rocket:
-> Adapter la version mobile à la version desktop
-> Intégration de la maquette
-> Compiler avec SASS et organiser ses fichiers
+Les maquettes "**[desktop & mobile]()**", mise à ma dispostion. 
 
 
-**Objectifs :**
+## Consignes :📑
 
-> Amélioration des compétences en HTML, CSS.
-> Apprendre à utiliser le préprocesseur SASS.
+- Mettre en place des animations CSS **dynamiques** 💥
+- Adapter la version mobile à la version desktop
+- Intégration de la maquette
+- Compiler avec SASS et organiser ses fichiers
+
+
+## Objectifs :🎯
+
+- Amélioration des compétences en HTML, CSS. 
+- Apprendre à utiliser le préprocesseur SASS.
 
 
 
